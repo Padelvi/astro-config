@@ -1,6 +1,5 @@
 return {
   -- Add plugins, the lazy syntax
-  -- "andweeb/presence.nvim",
   -- {
   --   "ray-x/lsp_signature.nvim",
   --   event = "BufRead",
