@@ -17,15 +17,11 @@ return {
     underline = true,
   },
   lsp = {
-    -- customize lsp formatting options
     formatting = {
-      -- control auto formatting on save
       format_on_save = {
         enabled = true,
         allow_filetypes = {},
-        ignore_filetypes = { -- disable format on save for specified filetypes
-          -- "python",
-        },
+        ignore_filetypes = {},
       },
       disabled = { -- disable formatting capabilities for the listed language servers
         -- disable lua_ls formatting capability if you want to use StyLua to format your lua code
@@ -44,7 +40,6 @@ return {
     defaults = { lazy = true },
     performance = {
       rtp = {
-        -- customize default disabled vim plugins
         disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin" },
       },
     },
@@ -55,7 +50,7 @@ return {
   polish = function()
     -- vim.filetype.add {
     --   -- extension = {
-    --   --   foo = "fooscript",
+    --   --   dockerignore = "fooscript",
     --   -- },
     --   filename = {
     --     [".dockerignore"] = "gitignore",
